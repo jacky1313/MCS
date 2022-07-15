@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #FE1A19;
+    padding: 20px; 
+}
+
+.header-text {
+    color: #fff;
+    font-size:20px; 
+    font-family: 'Helvetica'; 
+}
+
+.cakes {
+  display:flex;
+  background-color: #fff;
+  height:904px;
+  padding: 50px 0;
+  align-items:stretch;
+}
+
+
+.cake1,
+.cake2,
+.cake3{
+  border: 5px solid #E5E000;
+  margin-left:50px;
+  margin-right: 50px;
+  border-radius: 30px;
+}
+
+
+.style{
+  font-family: 'Helvetica';
+  font-size:23px;
+  text-align: left;
+  padding:33px;
+}
+
+.cake1 em{ 
+  font-style:normal;
+  display: block;
+  padding: 10px 33px; 
+  text-align: left;
+  font-size:20px;
+}
+
+.cake2 em{ 
+  font-style:normal;
+  display: block;
+  padding: 10px 33px; 
+  text-align: left;
+  font-size:20px;
+}
+
+.cake3 em{ 
+  font-style:normal;
+  display: block;
+  padding: 10px 33px; 
+  text-align: left;
+  font-size:20px;
+}
+
+.footer {
+    background-color: #FE1A19;
+    padding: 20px; 
+}
