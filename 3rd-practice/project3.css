@@ -7,12 +7,13 @@
   .header { 
     background-color:#E5E000;
     padding: 80px;
+    
   }
 
  .header_title { 
    color: #fff;
    font-size:50px; 
-   font-family: 'Helvetica'; 
+   font-family: 'Helvetica';
  }
 
 .image-block {
