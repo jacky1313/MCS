@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header { 
+    width:100%;
+    display:flex; 
+    position: fixed; 
+    background-color: white;
+    padding:50px; 
+    justify-content: space-between;
+    position: fixed;
+  }
+
+  .evian-text{
+    color:#E50043; 
+    font-family: "Arial";
+    font-size: 50px;
+  }
+
+.menu-links{
+  color: #E50043;
+  text-decoration: none;
+  font-family: "Arial";
+  font-size: 50px;
+}
+
+.menu-links > li {
+  margin-right: 50px;
+  display: inline;
+}
+
+.menu-links > li:last-of-type {
+  margin-right: 0;
+}
+
+.image-block {
+  height: 950px;
+  background-image: url(images/evian_origins_logo.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  z-index:1;
+  cursor: pointer;
+}
+
+.image-text { 
+  color: #E50043; 
+  font-family: "Arial";
+  font-size: 100px; 
+  position:relative;
+  z-index:1;
+  text-align: center;
+  top: 700px;
+}
+
+
+.description{ 
+  font-family: "Arial";
+  font-size: 25px;
+  margin: 150px 200px;
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  padding:30px;
+}
+
+.additional {
+  display:flex; 
+  position: relative;
+}
+
+.description-text{
+  padding:80px;
+  margin-left:80px;
+  position: relative;
+}
+
+.description em{
+  
+  display:block;
+  margin:10px;
+  font-style:normal;
+}
+
+.bottle{ 
+  background-image: url(images/glass.png);
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 100px;
+  position:absolute;
+}
+
+.bottles{ 
+   display:flex; 
+   justify-content: space-around;
+   margin-top:150px;
+   margin-right:200px;
+   margin-left:200px;
+}
+
+.bottle1{
+  height: 863px;
+  width: 279px;
+  background-image: url(images/wang.png);
+  background-repeat: no-repeat;
+}
+
+.bottle2{
+  height: 863px;
+  width: 279px;
+  background-image: url(images/blue.png);
+  background-repeat: no-repeat;
+}
+
+.bottle3{
+  height: 863px;
+  width: 279px;
+  background-image: url(images/chiara.png);
+  background-repeat: no-repeat;
+}
+
+.bottles-names{
+  display:flex; 
+  justify-content: space-around;
+  margin-top:50px;
+  margin-right:200px;
+  margin-left: 200px;
+}
+
+.text1{
+  font-family: "Arial";
+  font-size: 25px;
+  color:black;
+}
+.footer{ 
+    width:100%;
+    background-color:#F8BFC7;
+    padding:50px; 
+}
+
+.footer-text{
+  font-family: "Arial";
+  font-size: 50px;
+  color:white;
+}
