@@ -8,6 +8,7 @@
   .page {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .section {
@@ -25,10 +26,7 @@
     font-family: "Helvetica";
   }
   
-  .firstbox, 
-  .secondbox, 
-  .thirdbox, 
-  .forthbox { 
+  .firstbox { 
     background-color: white; 
     border: 5px solid #000000;
     padding: 50px;
