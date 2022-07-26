@@ -74,9 +74,8 @@
 }
 
 .description-text{
-  padding:80px;
-  margin-left:80px;
   position: relative;
+  top: 30px;
 }
 
 .description em{
@@ -86,12 +85,10 @@
   font-style:normal;
 }
 
-.bottle{ 
-  background-image: url(images/glass.png);
+.description img{ 
   background-repeat: no-repeat;
   height: 220px;
   width: 100px;
-  position:absolute;
 }
 
 .bottles{ 
