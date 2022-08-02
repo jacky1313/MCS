@@ -6,7 +6,6 @@
   
   .page {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -31,6 +30,8 @@
 
   .table img{
     background-repeat: no-repeat;
+    width: 100%; 
+    object-fit: cover; 
   }
 
   .text1{
