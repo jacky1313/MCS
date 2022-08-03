@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ .header { 
+    width:100%;
+    display:flex; 
+    top: 0; 
+    left: 0; 
+    background-color: #F8BFC7; 
+    padding:33px; 
+    justify-content: space-between;
+ }
+
+ .left-links {
+    color:#000000; 
+    font-family: "Helvetica";
+    font-size: 20px;
+ }
+
+ .right-link {
+    color:#000000; 
+    font-family: "Helvetica";
+    font-size: 20px;
+ }
+
+ .left-links > li {
+    display: inline;
+    text-decoration: none;
+  }
+
+  .right-link > li {
+    display: inline;
+    text-decoration: none;
+  }
+
+  .image-block {
+    height:643px;
+    background-image: url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .order-form {
+    background-color: #F8BFC7;
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    z-index:1;
+    width:300px;
+    height: 362px;
+    top:90px;
+    left:90px;
+    position: relative;
+  }
+
+  .form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:white;
+    padding:10px;
+    font-size: 20px;
+  }
+  
+  .form-row input[type='text'] {
+    background-color: #F8BFC7;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 20px;
+  }
+  
+  .form-row label {
+    margin-bottom: 16px;
+  }
+
+  .form-row input[type="email"] {
+    background-color: #F8BFC7;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 20px;
+    color:white;
+  }
+
+  .form-row button {
+    font-size: 20px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #FEB700;
+  
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+  
+    padding: 20px;
+    cursor: pointer;
+    margin-top:80px;
+  }
+  
+  .form-row button:hover {
+    background-color: #0b24fb;
+  }
+  
+  .form-row button:active {
+    background-color: #f1eeee;
+  }
+
+  .image-text { 
+    text-align: center;
+    color: #FEB700; 
+    font-size: 50px;
+    line-height: 57.5px;
+    font-family: "Helvetica";
+    background-color: #4169E1;
+    padding-top: 30px; 
+    padding-bottom: 114px;
+  }
+
+  .footer{ 
+    display: flex;
+    padding:33px; 
+    background-color:#F8BFC7; 
+    justify-content: space-between;
+  }
+  
+  .secret-parcels,
+  .year{
+    font-size: 20px;
+    font-family: "Helvetica";
+    color:white;
+    text-align: center;
+    line-height: 23px;
+  }
